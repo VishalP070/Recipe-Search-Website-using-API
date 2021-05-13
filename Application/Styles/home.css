@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif,'Poppins';
+}
+p{
+    font-weight: 300;
+    color:#111;
+}
+.banner{
+    position: relative;
+    width: 100wh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/background.svg.jpg);
+    background-size: cover;
+    
+  }
+ .banner .content{
+     max-width: 900px;
+     text-align:center
+ }
+ .banner .content h2{
+     font-size: 5em;
+     color: #fff;
+ }
+ .banner .content p{
+     font-size: 2em;
+     color:#fff;
+ }
+ .btn{
+     font-size: 1.5em;
+     color:white;
+     background: red;
+     display: inline-block;
+     text-transform: uppercase;
+     text-decoration: none;
+     letter-spacing: 2px;
+     transition: 0.5s;
+ }  
+ .btn:hover{
+     letter-spacing: 6px;
+ }
