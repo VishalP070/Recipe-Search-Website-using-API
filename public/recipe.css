@@ -88,7 +88,7 @@ body{
 /*  */
 .container{
     min-height: 100vh;
-    background: url(../Assets/Login.svg.jpg);
+    background: url(../public/Login.svg.jpg);
     background-size: cover;
     overflow: hidden;
 }
